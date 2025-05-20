@@ -31,7 +31,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['qrcode-av26.onrender.com']
 
-
+CSRF_TRUSTED_ORIGINS = [
+    "https://qrcode-av26.onrender.com",
+]
 # Application definition
 
 INSTALLED_APPS = [
